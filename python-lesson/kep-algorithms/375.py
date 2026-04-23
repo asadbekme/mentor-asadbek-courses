@@ -1,0 +1,7 @@
+n = int(input())
+a = list(map(int, input().split()))
+min_value = min(a)
+min_index = a.index(min_value)
+max_value = max(a)
+max_index = a.index(max_value)
+print(abs(min_index - max_index) - 1)
